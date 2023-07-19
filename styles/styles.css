@@ -80,14 +80,107 @@ line-height: normal;
     width: 33px;
 height: 35px;
 }
+/* goat section */
+.goat-sec {
+    display: flex;
+    justify-content: space-around;
+}
+.goat {
+    text-align: center;
+    justify-content: center;
+    width: 900px;
+height: 700px;
+background-image: url(./images/Group\ 14.png);
+
+}
+.goat-icons {
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+.pause {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.pause-icon {
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-right: 2px;
+position: relative;
+}
+.goat-head1 {
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.goat-head2 {
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: ;
+}
+.goat-para {
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+}
+.btn-primary {
+    display: inline-flex;
+    border: 0;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+margin-right: 5px;
+}
+.btn2 {
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+margin-right: 90px;
+}
 
 
 @media screen and (max-width: 576px) {
-   .nav {
-    display: block;
-   }
-   .about {
-    display: block;
-   }
-    
+    .nav {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .goat-sec{
+        display: block;
+        margin-top: 100px;
+    }
 }
+
