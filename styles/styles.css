@@ -287,9 +287,87 @@ line-height: normal;
 .title-para:hover {
     color: #FF42A5;
 }
+.cards:hover {
+    background-image: url(./images/youtube-play-button-outlined-social-symbol_icon-icons.com_74040.png);
+}
+/* footer section */
+footer {
+    background: #0B0223;
+    height: 636px;
+    padding-top: 250px;
+}
+.icon-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-img2 {
+    width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+margin-right: 20px;
 
-
+}
+.icon-head2 {
+    color:  #FFF;
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-list{
+    display: flex;
+    margin-left: 630px;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.ft-img {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+padding: 0;
+margin: 0;
+}
+.footer-icon {
+    text-align: center;
+    justify-content: space-around;
+}
+.trms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+    margin-right: 40px;
+}
+.terms{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 720px;
+    list-style: none;
+}
+.footer-para {
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 @media screen and (max-width: 576px) {
+    
     .nav {
         padding: 20px;
         display: flex;
@@ -335,7 +413,13 @@ line-height: normal;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+    .footer {
+        display: block;
+        width: 100%;
+    }
+    .footer-list {
+        display: block;
+    }
 
 }
 
