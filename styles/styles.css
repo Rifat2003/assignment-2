@@ -372,20 +372,36 @@ line-height: normal;
 @media screen and (max-width: 576px) {
     
     .nav {
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        width: 100%;
+      display: block;
+      position: relative;
+      left: 300px;
+    }
+    .icon{
+       
     }
     .about {
         display: block;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        position: relative;
+        top: 50px;
+        right: 600px;
+    }
+    .list-1 {
+        display: flex;
+        position: relative;
+        bottom: 30px;
+        left: 120px;
+    }
+    .list-2 {
+        position: relative;
+        bottom: 30px;
+        left: 120px;
+        
     }
     .goat-sec{
         display: block;
-        margin-top: 100px;
+        margin-top: 400px;
     }
     .online-games {
         width: 100%;
