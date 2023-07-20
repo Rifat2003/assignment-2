@@ -164,6 +164,10 @@ border: none;
 margin-right: 90px;
 }
 /* online and cards section */
+.online-games {
+    text-align: center;
+    justify-content: center;
+}
 .online-text {
     text-align: center;
 }
@@ -198,6 +202,7 @@ line-height: 30px;
 .cards {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 .card-para {
     text-align: center;
@@ -363,6 +368,62 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+@media screen and (max-width: 576px) {
+    
+    .nav {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .goat-sec{
+        display: block;
+        margin-top: 100px;
+    }
+    .online-games {
+        width: 100%;
+       display: block;
+       margin-left: 250px;
+    }
+    .cards {
+        display: block;
+       text-align: center;
+    }
+    .card-para {
+        display: flex;
+    }
+    .instant {
+        display: block;
+        width: 100%;
+    }
+.instant-head {
+    margin-bottom: 10px;
+}
+ .instant-img {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .game-title {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer {
+        display: block;
+        width: 100%;
+    }
+    .footer-list {
+        display: block;
+    }
+
 }
 
 
