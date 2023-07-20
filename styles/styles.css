@@ -248,6 +248,45 @@ border: 10px solid #FFF;
 position: relative;
 left: 170px;
 }
+/* title section */
+.title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 243px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+.title-img {
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+margin-right: 6px;
+}
+.game-title {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.title-para {
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.title:hover {
+    border: 1px solid #FF42A5;
+}
+.title-para:hover {
+    color: #FF42A5;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -291,6 +330,10 @@ left: 170px;
         flex-direction: column-reverse;
         text-align: center;
         margin-top: 120px;
+    }
+    .game-title {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     
 
