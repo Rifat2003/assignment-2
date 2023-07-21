@@ -324,14 +324,13 @@ line-height: normal;
 }
 .footer-list{
     display: flex;
-    margin-left: 400px;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
     color: #FFF;
 text-align: center;
 font-family: Work Sans;
 font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
 }
 .ft-img {
     width: 40px;
@@ -343,6 +342,7 @@ margin: 0;
 .footer-icon {
     text-align: center;
     justify-content: space-around;
+    padding-top: 20px;
 }
 .trms {
     color: rgba(255, 255, 255, 0.60);
@@ -357,9 +357,8 @@ margin: 0;
 }
 .terms{
     display: flex;
-    margin-top: 30px;
-    margin-left: 500px;
-    list-style: none;
+    justify-content: center;
+    gap: 30px;
 }
 .footer-para {
     color: rgba(255, 255, 255, 0.60);
@@ -436,10 +435,7 @@ line-height: normal;
         grid-template-columns: repeat(3, 1fr);
     }
     .footer {
-        display: flex;
-    }
-    .footer-list {
-        display: block;
+        width: 890px;
     }
 
 }
@@ -447,20 +443,20 @@ line-height: normal;
     .nav {
         display: block;
         position: relative;
-        left: 90px;
+        left: 205px;
     }
     .icon {
         justify-content: left;
         margin-right: 0;
         position: relative;
-        left: 250px;
+        left: 220px;
     }
     .about {
         justify-content: center;
         margin-right: 0;
         position: relative;
         top: 20px;
-        right: 300px;
+        right: 350px;
     }
     .goat-sec {
         margin-top: 200px;
@@ -511,8 +507,8 @@ line-height: normal;
         grid-template-columns: repeat(3, 1fr);
         
     }
-    footer {
-        width: auto;
+    .footer {
+       width: 1150px;
     }
 }
 
